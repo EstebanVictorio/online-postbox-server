@@ -18,7 +18,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "buildServer": "webpack --verbose --config webpack.config.js",
+    "build": "webpack --verbose --config webpack.config.js",
     "start:dev": "webpack-dev-server --client "
   },
   "author": "",

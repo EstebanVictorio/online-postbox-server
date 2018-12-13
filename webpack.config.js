@@ -8,14 +8,14 @@ let config = {
     __filename: true
   },
   entry: {
-    server: path.resolve(__dirname,'Server') + '/index.js'
+    server: path.resolve(__dirname,'') + '/index.js'
   },
   resolve: {
     extensions: ['.js'],
     alias:{
-      Controller: path.resolve(__dirname,'Server/Controller'),
-      AddOn: path.resolve(__dirname,'Server/AddOn'),
-      Agent: path.resolve(__dirname,'Server/Agent')
+      Controller: path.resolve(__dirname,'Controller'),
+      AddOn: path.resolve(__dirname,'AddOn'),
+      Agent: path.resolve(__dirname,'Agent')
     }
   },
   output: {
