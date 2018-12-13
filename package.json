@@ -1,0 +1,26 @@
+{
+  "name": "online-postbox-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "amqp": "^0.2.7",
+    "amqplib": "^0.5.3",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "co": "^4.6.0",
+    "express": "^4.16.4",
+    "readline": "^1.3.0",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "buildServer": "webpack --verbose --config webpack.config.js",
+    "start:dev": "webpack-dev-server --client "
+  },
+  "author": "",
+  "license": "ISC"
+}
